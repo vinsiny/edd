@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>五子棋</title>
+<title>五子棋-git 教学</title>
 
 <style>
    #chess{
@@ -10,16 +10,23 @@
     margin:50px auto;
     box-shadow:-2px -2px 2px #efefef,5px 5px 5px #b9b9b9;
    }
+   div {
+   	color: #ff9e00;
+	font-size: 30px;
+	
+   }
 </style>
 </head>
 <body>
     <canvas id="chess" width="450px" height="450px">
     </canvas>
+    <div>新加个页面元素</div>
 <script>
    var chessBoard = [];
    var me = true;
    var over = false;
    //赢法数组
+//新加行注释
    var wins = [];
    for(var i=0; i<15; i++){
    	chessBoard[i] = [];
